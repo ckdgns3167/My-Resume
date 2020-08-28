@@ -1,8 +1,5 @@
 # My-Resume
-제가 어떤 사람인지 소개하는 간단한 사이트입니다.
+- URI : https://ckdgns3167.github.io/My-Resume/ (🛠개발 중...)
 
-- 사용 기술: React
-=======
-제가 어떤 사람인지 소개하는 간단한 사이트입니다.
+- 사용 기술 : React
 
-- 사용 기술: React
