@@ -29,7 +29,7 @@ Hello.propTypes = {
   homeAddress: PropTypes.string.isRequired,
   company: PropTypes.string.isRequired,
   phone: PropTypes.string.isRequired,
-  birthDate: PropTypes.string.isRequired,
+  birthDate: PropTypes.object.isRequired,
   avatar_url: PropTypes.string.isRequired,
 }
 export default Hello
