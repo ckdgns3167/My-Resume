@@ -1,7 +1,7 @@
-import React from "react"
-import PropTypes from "prop-types"
+import React from "react";
+import PropTypes from "prop-types";
 
-import "./Hello.css"
+import "./Hello.css";
 
 function Hello({ name, email, github, homeAddress, company, phone, birthDate, avatar_url }) {
   return (
@@ -19,7 +19,7 @@ function Hello({ name, email, github, homeAddress, company, phone, birthDate, av
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 Hello.propTypes = {
@@ -31,5 +31,5 @@ Hello.propTypes = {
   phone: PropTypes.string.isRequired,
   birthDate: PropTypes.object.isRequired,
   avatar_url: PropTypes.string.isRequired,
-}
-export default Hello
+};
+export default Hello;
