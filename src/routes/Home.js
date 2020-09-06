@@ -68,18 +68,42 @@ class Home extends React.Component {
   }
 
   render() {
-    const { isLoading, name, email, github, homeAddress, company, phone, birthDate, avatar_url } = this.state;
+    const {
+      isLoading,
+      name,
+      email,
+      github,
+      homeAddress,
+      company,
+      phone,
+      birthDate,
+      avatar_url,
+    } = this.state;
 
     return isLoading ? (
-      <Grid container spacing={0} direction="column" alignItems="center" justify="center" style={{ minHeight: "100vh" }}>
-        <Grid item xs={3}>
-          <CircularProgress variant="determinate" value={this.state.completed} />
-        </Grid>
+      <Grid
+        container
+        spacing={0}
+        direction="column"
+        alignItems="center"
+        justify="center"
+        style={{ minHeight: "100vh" }}
+      >
+        <CircularProgress variant="determinate" value={this.state.completed} />
       </Grid>
     ) : (
       <div>
         <Header />
-        <Hello name={name} email={email} github={github} homeAddress={homeAddress} company={company} phone={phone} birthDate={birthDate} avatar_url={avatar_url} />
+        <Hello
+          name={name}
+          email={email}
+          github={github}
+          homeAddress={homeAddress}
+          company={company}
+          phone={phone}
+          birthDate={birthDate}
+          avatar_url={avatar_url}
+        />
       </div>
     );
   }
