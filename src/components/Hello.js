@@ -16,6 +16,7 @@ function Hello({ name, email, github, homeAddress, company, phone, birthDate, av
             width="300"
             height="380"
           />
+          <h1>창훈 | 최고의 웹 개발자가 되겠습니다.</h1>
         </div>
       </div>
     </section>
