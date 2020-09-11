@@ -9,6 +9,11 @@ import { Grid } from "@material-ui/core";
 import Hello from "../components/Hello";
 import Header from "../components/Header";
 
+/**
+ * CSS
+ */
+import "./Home.css";
+
 class Home extends React.Component {
   state = {
     isLoading: true,
